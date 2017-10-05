@@ -26,10 +26,11 @@ public class Menu {
         System.out.println("27 - Subtrair 2 numeros");
         System.out.println("28 - Porcentagem");
         System.out.println("31 - Somar Decimal");
-        System.out.println("32 - Subtrair Decimal");
+        System.out.println("32 - Subtrair Decimal"); // Igual em Fatorial
         System.out.println("29: Verificar se forma um triângulo");
-        System.out.println("32 - Fatorial");
+        System.out.println("32 - Fatorial"); // Igual em Somar Decimal
+        System.out.println("22 - Raiz Inteiro");
         System.out.print("opcao:");
-    }
+    } 
 
 }
