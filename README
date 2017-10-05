@@ -39,4 +39,5 @@ R5: O número inserido não deve passar de dez casas decimais |André Dias
 R6: A calculadora deve achar o resto de uma divisão | Vinicius
 R7: O número inserido deve ter no máximo 10 caracteres | André Dias
 R8: A calculadora deve apresentar o histórico de somas | Lucas Joaquim 
+R9: A calculadora deve fazer contas também com numeros float | Luis Zeine
 >>>>>>> 75953fa6b3d2b21da00617e86522acf35275d99d
