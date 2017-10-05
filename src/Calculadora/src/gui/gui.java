@@ -130,4 +130,9 @@ public class gui {
         System.out.println(v.verifica(a, b, c));    
         
     }
+    public void fatorial(){
+        System.out.print("digite o numero:");
+        int a = new java.util.Scanner(System.in).nextInt();
+        System.out.println("Resultado: " + new br.Fatorial().fatorial(a));
+    }
 }
