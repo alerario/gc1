@@ -1,22 +1,10 @@
 ﻿Calculadora Cientifica de GC
 
 R1: A calculadora deve somar 2 numeros inteiros |Alexandre L'Erario
-
-
 R2: A calculadora deve dividir 2 numeros |Rafael Santos
-
-
-R2: A calculadora deve dividir 2 numeros |Rafael Santos
-
-R3: Multiplicar 2 números inteiros | Josiel
-
-
-
-
-R10: A calculadora deve apresentar o histórico de somas | Lucas Joaquim 
-
 R3: Multiplicar 2 números inteiros | Josiel
 R4: A calculadora deve achar o resto de uma divisão | Vinicius
 R5: O número inserido deve ter no máximo 10 caracteres | André Dias
+R6: A calculadora deve apresentar o histórico de somas | Lucas Joaquim 
 
 
