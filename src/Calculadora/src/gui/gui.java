@@ -66,6 +66,15 @@ public class gui {
         System.out.println("Resultado: " + new br.DividirFloat().divideF(a, b));
     }
     
+      public void resto(){
+        System.out.print("digite 1o n.");
+        int a = new java.util.Scanner(System.in).nextInt();
+        System.out.print("digite 2o n.");
+        int b = new java.util.Scanner(System.in).nextInt();
+        System.out.println("Resultado: " + new br.Resto().calcularResto(a, b));
+    }
+    
+    
     public void bhaskaraR26(){
         System.out.print("Digite o coeficiente a: ");
         int a = new java.util.Scanner(System.in).nextInt();
