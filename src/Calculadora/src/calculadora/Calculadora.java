@@ -24,9 +24,11 @@ public class Calculadora {
                new gui.gui().somarR1();
             } else if (op==2) {
                 new gui.gui().dividirR2();
+            } else if (op==3) {
+                new gui.gui().multiplicar2();
             }
-            
+
         }while(op!=0);
     }
-    
+
 }

@@ -13,9 +13,10 @@ public class Menu {
     public void getMenu(){
         System.out.println("############## escolha ####");
         System.out.println("0 - sair");
-        System.out.println("1 - somar 2 numeros"); 
+        System.out.println("1 - somar 2 numeros");
         System.out.println("2 - dividir 2 numeros");
+        System.out.println("3 - multiplicar 2 números inteiros");
         System.out.print("opcao:");
     }
-    
+
 }
