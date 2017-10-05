@@ -17,4 +17,12 @@ public class gui {
         int b = new java.util.Scanner(System.in).nextInt();
         System.out.println("Resultado: " + new br.Somar().some2(a, b));
     }
+    
+    public void dividirR2(){
+        System.out.print("digite 1o n.");
+        int a = new java.util.Scanner(System.in).nextInt();
+        System.out.print("digite 2o n.");
+        int b = new java.util.Scanner(System.in).nextInt();
+        System.out.println("Resultado: " + new br.Dividir().divide2(a, b));
+    }
 }

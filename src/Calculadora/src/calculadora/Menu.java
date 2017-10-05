@@ -14,6 +14,7 @@ public class Menu {
         System.out.println("############## escolha ####");
         System.out.println("0 - sair");
         System.out.println("1 - somar 2 numeros"); 
+        System.out.println("2 - dividir 2 numeros");
         System.out.print("opcao:");
     }
     
