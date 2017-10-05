@@ -25,7 +25,9 @@ public class Calculadora {
             } else if (op == 2) {
                 new gui.gui().dividirR2();
             } else if (op==3) {
-                new gui.gui().multiplicarR3();
+                new gui.gui().multiplicarR3();              
+            } else if (op==6) {
+                new gui.gui().resto();
             } else if (op == 27) {
                 new gui.gui().subtrairR27();
             } else if (op == 7) {
