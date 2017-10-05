@@ -25,12 +25,9 @@ public class Menu {
         System.out.println("26 - Fórmula de Bhaskara");
         System.out.println("27 - Subtrair 2 numeros");
         System.out.println("28 - Porcentagem");
-<<<<<<< HEAD
         System.out.println("31 - Somar Decimal");
         System.out.println("32 - Subtrair Decimal");
-=======
         System.out.println("29: Verificar se forma um triângulo");
->>>>>>> 122623eeb77c6336243a5b1ede9fc82202460206
         System.out.print("opcao:");
     }
 
