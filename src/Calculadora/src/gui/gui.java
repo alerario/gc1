@@ -5,6 +5,7 @@
  */
 package gui;
 
+import br.Historico;
 import br.VerificaTriangulo;
 
 
@@ -13,10 +14,18 @@ import br.VerificaTriangulo;
  * @author utfpr
  */
 public class gui {
+    
+    private final Historico meuHistorico;
+    
+    public gui(){
+        meuHistorico = new Historico();
+    }
+    
     // Usar função para exibir resultado para evitar
     // o uso demasiado de System.out.println
     public void exibaResultado(String resultado){
         System.out.println("Resultado: " + resultado);
+        meuHistorico.salveHistorico(resultado);
     }
     
     public void somarR1(){
