@@ -5,6 +5,8 @@
  */
 package gui;
 
+import br.VerificaTriangulo;
+
 
 /**
  *
@@ -111,6 +113,7 @@ public class gui {
         System.out.println("Resultado: " + new br.Porcentagem().porcentagem(a, b) +"%");
     }
     
+<<<<<<< HEAD
     public void somarDecimalR31(){
         System.out.print("Entre com o primeiro número: ");
         float numeroA = new java.util.Scanner(System.in).nextFloat();
@@ -125,5 +128,23 @@ public class gui {
         System.out.print("Entre com o segundo número:");
         float numeroB = new java.util.Scanner(System.in).nextFloat();
         System.out.println("Resultado: " + new br.SubtrairDecimal().subtrairDecimal(numeroA, numeroB) + "\n\n\n");
+=======
+    public void verificaTriangulo() {
+        
+        System.out.print("Digite o 1o numero: ");
+        float a = new java.util.Scanner(System.in).nextFloat();
+        
+        System.out.print("Digite o 2o numero: ");
+        float b = new java.util.Scanner(System.in).nextFloat();
+        
+        System.out.print("Digite o 3o numero: ");
+        float c = new java.util.Scanner(System.in).nextFloat();
+        
+        
+        VerificaTriangulo v = new VerificaTriangulo();
+        
+        System.out.println(v.verifica(a, b, c));    
+        
+>>>>>>> 122623eeb77c6336243a5b1ede9fc82202460206
     }
 }
