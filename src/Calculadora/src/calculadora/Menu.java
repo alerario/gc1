@@ -17,6 +17,10 @@ public class Menu {
         System.out.println("2 - Dividir 2 numeros");
         System.out.println("3 - multiplicar 2 números inteiros");
         System.out.println("7 - Checar parênteses");
+        System.out.println("10 - Somar 2 numeros float");
+        System.out.println("11 - Subtrair 2 numeros float");
+        System.out.println("12 - Multiplicar 2 numeros float");
+        System.out.println("13 - Dividir 2 numeros float");
         System.out.println("26 - Fórmula de Bhaskara");
         System.out.println("27 - Subtrair 2 numeros");
         System.out.println("28 - Porcentagem");

@@ -30,6 +30,14 @@ public class Calculadora {
                 new gui.gui().subtrairR27();
             } else if (op == 7) {
                 new gui.gui().parenteses();
+            } else if (op == 10) {
+                new gui.gui().somarR10();
+            } else if (op == 11) {
+                new gui.gui().subtrairR11();
+            } else if (op == 12) {
+                new gui.gui().multiplicarR12();
+            } else if (op == 13) {
+                new gui.gui().dividirR13();
             } else if (op == 28) {
                 new gui.gui().porcentagemR28();
             } else if (op == 26) {

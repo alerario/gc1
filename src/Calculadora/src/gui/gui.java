@@ -34,6 +34,37 @@ public class gui {
         int b = new java.util.Scanner(System.in).nextInt();
         System.out.println("Resultado: " + new br.Multiplicar().multiplicar2(a, b));
     }
+    public void somarR10(){
+        System.out.print("digite 1o n.");
+        float a = new java.util.Scanner(System.in).nextFloat();
+        System.out.print("digite 2o n.");
+        float b = new java.util.Scanner(System.in).nextFloat();
+        System.out.println("Resultado: " + new br.SomarFloat().someF(a, b));
+    }
+    
+    public void subtrairR11(){
+        System.out.print("digite 1o n.");
+        float a = new java.util.Scanner(System.in).nextFloat();
+        System.out.print("digite 2o n.");
+        float b = new java.util.Scanner(System.in).nextFloat();
+        System.out.println("Resultado: " + new br.SubtrairFloat().subtrairF(a, b));
+    }
+    
+    public void multiplicarR12(){
+        System.out.print("digite 1o n.");
+        float a = new java.util.Scanner(System.in).nextFloat();
+        System.out.print("digite 2o n.");
+        float b = new java.util.Scanner(System.in).nextFloat();
+        System.out.println("Resultado: " + new br.MultiplicarFloat().multiplicarF(a, b));
+    }
+    
+    public void dividirR13(){
+        System.out.print("digite 1o n.");
+        float a = new java.util.Scanner(System.in).nextFloat();
+        System.out.print("digite 2o n.");
+        float b = new java.util.Scanner(System.in).nextFloat();
+        System.out.println("Resultado: " + new br.DividirFloat().divideF(a, b));
+    }
     
     public void bhaskaraR26(){
         System.out.print("Digite o coeficiente a: ");
