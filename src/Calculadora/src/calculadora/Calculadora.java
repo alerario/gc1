@@ -44,7 +44,10 @@ public class Calculadora {
                 new gui.gui().porcentagemR28();
             } else if (op == 26) {
                 new gui.gui().bhaskaraR26();
+            } else if (op == 1256) {
+                new gui.gui().verificaTriangulo();
             }
+            
         } while (op != 0);
     }
 
