@@ -160,4 +160,9 @@ public class gui {
         int a = new java.util.Scanner(System.in).nextInt();
         System.out.println("Resultado: " + new br.Fatorial().fatorial(a));
     }
+    public void raizInteiro(){
+        System.out.print("digite o numero:");
+        int a = new java.util.Scanner(System.in).nextInt();
+        System.out.println("Resultado: " + new br.RaizInteiro().RaizInteiro(a));
+    }
 }

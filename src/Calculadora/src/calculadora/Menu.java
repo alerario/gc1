@@ -29,6 +29,7 @@ public class Menu {
         System.out.println("32 - Subtrair Decimal");
         System.out.println("29: Verificar se forma um triângulo");
         System.out.println("32 - Fatorial");
+        System.out.println("22 - Raiz Inteiro");
         System.out.print("opcao:");
     }
 

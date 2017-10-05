@@ -47,12 +47,13 @@ public class Calculadora {
             } else if (op == 31) {
                 new gui.gui().somarDecimalR31();
             } else if (op == 32) {
-                new gui.gui().subtrairDecimalR32();
-            } 
+                new gui.gui().subtrairDecimalR32(); 
             } else if (op == 1256) {
                 new gui.gui().verificaTriangulo();
             } else if (op == 32) {
                 new gui.gui().fatorial();
+            } else if (op == 22) {
+                new gui.gui().raizInteiro();
             }
             
         } while (op != 0);
