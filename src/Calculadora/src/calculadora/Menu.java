@@ -12,9 +12,10 @@ package calculadora;
 public class Menu {
     public void getMenu(){
         System.out.println("############## escolha ####");
-        System.out.println("0 - sair");
-        System.out.println("1 - somar 2 numeros"); 
-        System.out.println("2 - dividir 2 numeros");
+        System.out.println("0 - Sair");
+        System.out.println("1 - Somar 2 numeros"); 
+        System.out.println("2 - Dividir 2 numeros");
+        System.out.println("27 - Subtrair 2 numeros");
         System.out.print("opcao:");
     }
     
