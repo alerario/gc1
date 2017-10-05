@@ -25,11 +25,13 @@ public class Calculadora {
             } else if (op == 2) {
                 new gui.gui().dividirR2();
             } else if (op==3) {
-                new gui.gui().multiplicar2();
+                new gui.gui().multiplicarR3();
             } else if (op == 27) {
                 new gui.gui().subtrairR27();
             } else if (op == 7) {
                 new gui.gui().parenteses();
+            } else if (op == 28) {
+                new gui.gui().porcentagemR28();
             }
         } while (op != 0);
     }

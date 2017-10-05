@@ -32,7 +32,7 @@ public class gui {
         int a = new java.util.Scanner(System.in).nextInt();
         System.out.print("digite 2o n.");
         int b = new java.util.Scanner(System.in).nextInt();
-        System.out.println("Resultado: " + new br.Multiplicar().multiplicarR3(a, b));
+        System.out.println("Resultado: " + new br.Multiplicar().multiplicar2(a, b));
     }
 
     public void subtrairR27(){
@@ -48,5 +48,13 @@ public class gui {
         System.out.println("Digite uma expressão matemática.");
         String entrada = new java.util.Scanner(System.in).nextLine();
         new br.ChecaParenteses(entrada).on();
+    }
+    
+    public void porcentagemR28() {
+        System.out.print("Digite o 1o numero: ");
+        float a = new java.util.Scanner(System.in).nextInt();
+        System.out.print("Digite o 2o numero: ");
+        float b = new java.util.Scanner(System.in).nextInt();
+        System.out.println("Resultado: " + new br.Porcentagem().porcentagem(a, b) +"%");
     }
 }
