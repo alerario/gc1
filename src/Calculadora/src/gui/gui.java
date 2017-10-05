@@ -70,4 +70,9 @@ public class gui {
         float b = new java.util.Scanner(System.in).nextInt();
         System.out.println("Resultado: " + new br.Porcentagem().porcentagem(a, b) +"%");
     }
+    public void binario30() {
+        System.out.print("Digite o um numero inteiro para a conversão: ");
+        int a = new java.util.Scanner(System.in).nextInt();
+        System.out.println("O Binario eh: " + new br.Binario().binario(a));
+    }
 }

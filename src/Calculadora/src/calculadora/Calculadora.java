@@ -34,6 +34,8 @@ public class Calculadora {
                 new gui.gui().porcentagemR28();
             } else if (op == 26) {
                 new gui.gui().bhaskaraR26();
+            }else if(op == 30){
+                new gui.gui().binario30();
             }
         } while (op != 0);
     }
