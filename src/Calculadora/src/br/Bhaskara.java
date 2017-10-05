@@ -20,8 +20,7 @@ public class Bhaskara {
             result[0] = (double) ((-(b) + Math.sqrt(delta)) / 2 * a);
             result[1] = (double) ((-(b) - Math.sqrt(delta)) / 2 * a);
 	} else {
-            System.out.println("Delta não possui raiz!");
-            System.exit(0);
+            result[0] = -1;
 	}
         return result;
     }

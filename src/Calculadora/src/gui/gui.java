@@ -86,8 +86,12 @@ public class gui {
         int c = new java.util.Scanner(System.in).nextInt();
         double res[];
         res = new br.Bhaskara().bhaskara(a, b, c);
-        System.out.println("Resultado: ");
-        System.out.println("x' = " + res[0] + "\nx'' = " + res [1]);
+        if(res[0] == -1){
+            System.out.println("Delta menor ou igual a zero");
+        } else {
+            System.out.println("Resultado: ");
+            System.out.println("x' = " + res[0] + "\nx'' = " + res [1]);
+        }
     }
 
     public void subtrairR27(){
