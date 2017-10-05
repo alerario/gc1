@@ -44,7 +44,12 @@ public class Calculadora {
                 new gui.gui().porcentagemR28();
             } else if (op == 26) {
                 new gui.gui().bhaskaraR26();
-            }
+            } else if (op == 31) {
+                new gui.gui().somarDecimalR31();
+            } else if (op == 32) {
+                new gui.gui().subtrairDecimalR32();
+            } 
+            
         } while (op != 0);
     }
 

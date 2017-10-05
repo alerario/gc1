@@ -93,7 +93,7 @@ public class gui {
         int a = new java.util.Scanner(System.in).nextInt();
         System.out.print("Digite o 2o numero:");
         int b = new java.util.Scanner(System.in).nextInt();
-        System.out.println("Resultado: " + new br.Subtrair().subtrair2(a, b));
+        System.out.println("Resultado: " + new br.Subtrair().subtrair(a, b));
     }
 
     public void parenteses() {
@@ -109,5 +109,21 @@ public class gui {
         System.out.print("Digite o 2o numero: ");
         float b = new java.util.Scanner(System.in).nextInt();
         System.out.println("Resultado: " + new br.Porcentagem().porcentagem(a, b) +"%");
+    }
+    
+    public void somarDecimalR31(){
+        System.out.print("Entre com o primeiro número: ");
+        float numeroA = new java.util.Scanner(System.in).nextFloat();
+        System.out.print("Entre com o segundo número:");
+        float numeroB = new java.util.Scanner(System.in).nextFloat();
+        System.out.println("Resultado: " + new br.SomarDecimal().somarDecimal(numeroA, numeroB) + "\n\n\n");
+    }
+    
+    public void subtrairDecimalR32(){
+        System.out.print("Entre com o primeiro número: ");
+        float numeroA = new java.util.Scanner(System.in).nextFloat();
+        System.out.print("Entre com o segundo número:");
+        float numeroB = new java.util.Scanner(System.in).nextFloat();
+        System.out.println("Resultado: " + new br.SubtrairDecimal().subtrairDecimal(numeroA, numeroB) + "\n\n\n");
     }
 }
