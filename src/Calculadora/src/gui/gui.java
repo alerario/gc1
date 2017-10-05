@@ -92,8 +92,12 @@ public class gui {
         int c = new java.util.Scanner(System.in).nextInt();
         double res[];
         res = new br.Bhaskara().bhaskara(a, b, c);
-        System.out.println("Resultado: ");
-        System.out.println("x' = " + res[0] + "\nx'' = " + res [1]);
+        if(res[0] == -1){
+            System.out.println("Delta menor ou igual a zero");
+        } else {
+            System.out.println("Resultado: ");
+            System.out.println("x' = " + res[0] + "\nx'' = " + res [1]);
+        }
     }
 
     public void subtrairR27(){
@@ -101,7 +105,7 @@ public class gui {
         int a = new java.util.Scanner(System.in).nextInt();
         System.out.print("Digite o 2o numero:");
         int b = new java.util.Scanner(System.in).nextInt();
-        System.out.println("Resultado: " + new br.Subtrair().subtrair2(a, b));
+        System.out.println("Resultado: " + new br.Subtrair().subtrair(a, b));
     }
 
     public void parenteses() {
@@ -119,6 +123,20 @@ public class gui {
         System.out.println("Resultado: " + new br.Porcentagem().porcentagem(a, b) +"%");
     }
     
+    public void somarDecimalR31(){
+        System.out.print("Entre com o primeiro número: ");
+        float numeroA = new java.util.Scanner(System.in).nextFloat();
+        System.out.print("Entre com o segundo número:");
+        float numeroB = new java.util.Scanner(System.in).nextFloat();
+        System.out.println("Resultado: " + new br.SomarDecimal().somarDecimal(numeroA, numeroB) + "\n\n\n");
+    }
+    
+    public void subtrairDecimalR32(){
+        System.out.print("Entre com o primeiro número: ");
+        float numeroA = new java.util.Scanner(System.in).nextFloat();
+        System.out.print("Entre com o segundo número:");
+        float numeroB = new java.util.Scanner(System.in).nextFloat();
+        System.out.println("Resultado: " + new br.SubtrairDecimal().subtrairDecimal(numeroA, numeroB) + "\n\n\n");
     public void verificaTriangulo() {
         
         System.out.print("Digite o 1o numero: ");
