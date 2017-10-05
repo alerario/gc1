@@ -2,9 +2,21 @@
 
 R1: A calculadora deve somar 2 numeros inteiros |Alexandre L'Erario
 R2: A calculadora deve dividir 2 numeros |Rafael Santos
+<<<<<<< HEAD
+=======
+R3: Multiplicar 2 números inteiros | Jos
+R10: A calculadora deve apresentar o histórico de somas | Lucas Joaquim 
 R3: Multiplicar 2 números inteiros | Josiel
+R10: A calculadora deve apresentar o histórico de somas | Lucas Joaquim 
+>>>>>>> 826d23aa85aeae65f673d01ee793835266e4634e
+R3: Multiplicar 2 números inteiros | Josiel
+R2: A calculadora deve checar o fechamento correto dos parênteses |Paulo Nakaima
+R3: O número inserido não deve passar de dez casas decimais |André Dias
 R4: A calculadora deve achar o resto de uma divisão | Vinicius
 R5: O número inserido deve ter no máximo 10 caracteres | André Dias
+<<<<<<< HEAD
 R6: A calculadora deve apresentar o histórico de somas | Lucas Joaquim 
 
 
+=======
+>>>>>>> 826d23aa85aeae65f673d01ee793835266e4634e
