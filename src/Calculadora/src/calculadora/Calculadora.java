@@ -16,19 +16,22 @@ public class Calculadora {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int op=0;
-        do{
+        int op = 0;
+        do {
             new Menu().getMenu();
-            op=new java.util.Scanner(System.in).nextInt();
-            if(op==1){
-               new gui.gui().somarR1();
-            } else if (op==2) {
+            op = new java.util.Scanner(System.in).nextInt();
+            if (op == 1) {
+                new gui.gui().somarR1();
+            } else if (op == 2) {
                 new gui.gui().dividirR2();
             } else if (op==3) {
                 new gui.gui().multiplicar2();
+            } else if (op == 27) {
+                new gui.gui().subtrairR27();
+            } else if (op == 7) {
+                new gui.gui().parenteses();
             }
-
-        }while(op!=0);
+        } while (op != 0);
     }
 
 }
