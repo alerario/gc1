@@ -11,7 +11,7 @@ package br;
  */
 public class Subtrair {
 
-    public int subtrair2(int a, int b) {
+    public int subtrair(int a, int b) {
         return a - b;
     }
 }
