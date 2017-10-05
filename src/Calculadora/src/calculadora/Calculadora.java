@@ -26,6 +26,8 @@ public class Calculadora {
                 new gui.gui().dividirR2();
             } else if (op == 27) {
                 new gui.gui().subtrairR27();
+            } else if (op == 7) {
+                new gui.gui().parenteses();
             }
         } while (op != 0);
     }

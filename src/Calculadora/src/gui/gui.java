@@ -5,6 +5,7 @@
  */
 package gui;
 
+
 /**
  *
  * @author utfpr
@@ -32,5 +33,12 @@ public class gui {
         System.out.print("Digite o 2o numero:");
         int b = new java.util.Scanner(System.in).nextInt();
         System.out.println("Resultado: " + new br.Subtrair().subtrair2(a, b));
+    }
+    
+    public void parenteses() {
+        System.out.println("Esta opção somente checa o fechamento dos parênteses.");
+        System.out.println("Digite uma expressão matemática.");
+        String entrada = new java.util.Scanner(System.in).nextLine();
+        new br.ChecaParenteses(entrada).on();
     }
 }

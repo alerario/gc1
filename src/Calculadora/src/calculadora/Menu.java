@@ -15,6 +15,7 @@ public class Menu {
         System.out.println("0 - Sair");
         System.out.println("1 - Somar 2 numeros"); 
         System.out.println("2 - Dividir 2 numeros");
+        System.out.println("7 - Checar parênteses");
         System.out.println("27 - Subtrair 2 numeros");
         System.out.print("opcao:");
     }
