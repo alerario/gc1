@@ -48,7 +48,6 @@ public class Calculadora {
                 new gui.gui().somarDecimalR31();
             } else if (op == 32) {
                 new gui.gui().subtrairDecimalR32();
-            } 
             } else if (op == 1256) {
                 new gui.gui().verificaTriangulo();
             }
