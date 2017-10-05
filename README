@@ -28,9 +28,6 @@ R25: A calculadora deve checar o fechamento correto dos parênteses |Paulo Nakai
 R26: A calculadora deve efetuar calculos com formula de Bhaskara | Renilson Picinin
 R27: Subtrair 2 números inteiros| Harrison
 R28: A calculadora deve calcular a porcentagem do segundo número em relação ao primeiro | José Ede
-<<<<<<< HEAD
-R30: A calculadora deve transformar um inteiro em binario | Gabriel de Carli
-
-=======
 R29: Verificar se os números passados formam um triângulo | João Salgado
->>>>>>> 0150fe5df7265922f88474c3c746e2a167dc979d
+R30: A calculadora deve transformar um inteiro em binario | Gabriel de Carli
+R31: Somar e subtrair decimais | Jonata William
