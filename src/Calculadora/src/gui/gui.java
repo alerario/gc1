@@ -13,6 +13,12 @@ import br.VerificaTriangulo;
  * @author utfpr
  */
 public class gui {
+    // Usar função para exibir resultado para evitar
+    // o uso demasiado de System.out.println
+    public void exibaResultado(String resultado){
+        System.out.println("Resultado: " + resultado);
+    }
+    
     public void somarR1(){
         System.out.print("digite 1o n.");
         int a = new java.util.Scanner(System.in).nextInt();
