@@ -37,6 +37,10 @@ public class ChecaParenteses {
                 catch (NoSuchElementException e) { saida = "Não fechou."; }
             }
         }
+        if(!pilha.isEmpty()) {
+            saida = "Não fechou.";
+        }
         System.out.println(saida);
+        
     }
 }
