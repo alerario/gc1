@@ -34,6 +34,19 @@ public class gui {
         int b = new java.util.Scanner(System.in).nextInt();
         System.out.println("Resultado: " + new br.Multiplicar().multiplicar2(a, b));
     }
+    
+    public void bhaskaraR26(){
+        System.out.print("Digite o coeficiente a: ");
+        int a = new java.util.Scanner(System.in).nextInt();
+        System.out.print("Digite o coeficiente b: ");
+        int b = new java.util.Scanner(System.in).nextInt();
+        System.out.print("Digite o coeficiente c: ");
+        int c = new java.util.Scanner(System.in).nextInt();
+        double res[];
+        res = new br.Bhaskara().bhaskara(a, b, c);
+        System.out.println("Resultado: ");
+        System.out.println("x' = " + res[0] + "\nx'' = " + res [1]);
+    }
 
     public void subtrairR27(){
         System.out.print("Digite o 1o numero: ");
