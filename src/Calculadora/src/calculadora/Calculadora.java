@@ -44,17 +44,14 @@ public class Calculadora {
                 new gui.gui().porcentagemR28();
             } else if (op == 26) {
                 new gui.gui().bhaskaraR26();
-<<<<<<< HEAD
             } else if (op == 31) {
                 new gui.gui().somarDecimalR31();
             } else if (op == 32) {
                 new gui.gui().subtrairDecimalR32();
             } 
-=======
             } else if (op == 1256) {
                 new gui.gui().verificaTriangulo();
             }
->>>>>>> 122623eeb77c6336243a5b1ede9fc82202460206
             
         } while (op != 0);
     }
