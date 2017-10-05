@@ -25,4 +25,12 @@ public class gui {
         int b = new java.util.Scanner(System.in).nextInt();
         System.out.println("Resultado: " + new br.Dividir().divide2(a, b));
     }
+    
+    public void subtrairR27(){
+        System.out.print("Digite o 1o numero: ");
+        int a = new java.util.Scanner(System.in).nextInt();
+        System.out.print("Digite o 2o numero:");
+        int b = new java.util.Scanner(System.in).nextInt();
+        System.out.println("Resultado: " + new br.Subtrair().subtrair2(a, b));
+    }
 }
