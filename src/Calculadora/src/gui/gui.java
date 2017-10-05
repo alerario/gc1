@@ -137,6 +137,7 @@ public class gui {
         System.out.print("Entre com o segundo número:");
         float numeroB = new java.util.Scanner(System.in).nextFloat();
         System.out.println("Resultado: " + new br.SubtrairDecimal().subtrairDecimal(numeroA, numeroB) + "\n\n\n");
+    }
     public void verificaTriangulo() {
         
         System.out.print("Digite o 1o numero: ");
