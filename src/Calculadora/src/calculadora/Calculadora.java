@@ -22,7 +22,10 @@ public class Calculadora {
             op=new java.util.Scanner(System.in).nextInt();
             if(op==1){
                new gui.gui().somarR1();
+            } else if (op==2) {
+                new gui.gui().dividirR2();
             }
+            
         }while(op!=0);
     }
     
