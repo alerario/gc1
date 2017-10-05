@@ -30,9 +30,5 @@ R27: Subtrair 2 números inteiros| Harrison
 R28: A calculadora deve calcular a porcentagem do segundo número em relação ao primeiro | José Ede
 R29: Verificar se os números passados formam um triângulo | João Salgado
 R30: A calculadora deve transformar um inteiro em binario | Gabriel de Carli
-<<<<<<< HEAD
-R31: A calculadora deve calcular o valor fatorial de um inteiro | Renata Gizzi
-
-=======
 R31: Somar e subtrair decimais | Jonata William
->>>>>>> 325283b14081548905ce0693b04d62695c6c65c4
+R32: A calculadora deve calcular o valor fatorial de um inteiro | Renata Gizzi
