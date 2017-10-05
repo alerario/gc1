@@ -1,5 +1,15 @@
 Calculadora Cientifica de GC
 
-R1: A calculadora deve somar 2 numeros inteiros |Alexandre L'Erario
-R2: A calculadora deve dividir 2 numeros |Rafael Santos
-R3: Multiplicar 2 nÃºmeros inteiros | Josiel
+R1: A calculadora deve somar 2 numeros inteiros
+R2: A calculadora deve dividir dois números inteiros
+R3: A calculadora dever dividir dois números de sinais diferentes ou mesmo sinais
+R4: a calculadora deve calcular o módulo n de m: n mod m = x;
+R5: a calculadora deve determinar a mediana de um conjunto de números entrados
+R6: A calculadora deve determinar a moda de um conjunto de números entrados
+R7: A calculadora deve mostrar mensagem de erro quando o usuário tentar dividir zero por zero
+R8: A calculadora deve calcular a potência de qualquer base inteira por qualquer exponte inteiro
+R9: A calculadora deve calcular a raiz de qualquer radicando inteiro por qualquer radical inteiro
+R10: A calculadora deve calcular uma fração com numerador inteiro e denominador float
+R11: A calculadora deve determinar qual a maior fração entre as duas frações entradas de denominadores iguais
+R12:  A calculadora deve determinar qual a maior fração entre as duas frações entradas de denominadores diferentes
+
