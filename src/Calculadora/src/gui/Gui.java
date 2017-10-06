@@ -13,11 +13,11 @@ import br.VerificaTriangulo;
  *
  * @author utfpr
  */
-public class gui {
+public class Gui {
     
     private final Historico meuHistorico;
     
-    public gui(){
+    public Gui(){
         meuHistorico = new Historico();
     }
     
