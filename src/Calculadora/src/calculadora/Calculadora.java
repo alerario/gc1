@@ -5,6 +5,8 @@
  */
 package calculadora;
 
+import gui.gui;
+
 /**
  *
  * @author utfpr
@@ -20,42 +22,63 @@ public class Calculadora {
         do {
             new Menu().getMenu();
             op = new java.util.Scanner(System.in).nextInt();
-            if (op == 1) {
-                new gui.gui().somarR1();
-            } else if (op == 2) {
-                new gui.gui().dividirR2();
-            } else if (op==3) {
-                new gui.gui().multiplicarR3();              
-            } else if (op==6) {
-                new gui.gui().resto();
-            } else if (op == 27) {
-                new gui.gui().subtrairR27();
-            } else if (op == 7) {
-                new gui.gui().parenteses();
-            } else if (op == 10) {
-                new gui.gui().somarR10();
-            } else if (op == 11) {
-                new gui.gui().subtrairR11();
-            } else if (op == 12) {
-                new gui.gui().multiplicarR12();
-            } else if (op == 13) {
-                new gui.gui().dividirR13();
-            } else if (op == 28) {
-                new gui.gui().porcentagemR28();
-            } else if (op == 26) {
-                new gui.gui().bhaskaraR26();
-            }else if(op == 30){
-                new gui.gui().binario30();
-            } else if (op == 31) {
-                new gui.gui().somarDecimalR31();
-            } else if (op == 32) {
-                new gui.gui().subtrairDecimalR32();
-            } else if (op == 1256) {
-                new gui.gui().verificaTriangulo();
-            } else if (op == 33) {
-                new gui.gui().fatorial();
-            } else if (op == 22) {
-                new gui.gui().raizInteiro();
+            switch (op) {
+                case 1:
+                    new gui().somarR1();
+                    break;
+                case 2:
+                    new gui().dividirR2();
+                    break;
+                case 3:
+                    new gui().multiplicarR3();
+                    break;
+                case 6:
+                    new gui().resto();
+                    break;
+                case 27:
+                    new gui().subtrairR27();
+                    break;
+                case 7:
+                    new gui().parenteses();
+                    break;
+                case 10:
+                    new gui().somarR10();
+                    break;
+                case 11:
+                    new gui().subtrairR11();
+                    break;
+                case 12:
+                    new gui().multiplicarR12();
+                    break;
+                case 13:
+                    new gui().dividirR13();
+                    break;
+                case 28:
+                    new gui().porcentagemR28();
+                    break;
+                case 26:
+                    new gui().bhaskaraR26();
+                    break;
+                case 30:
+                    new gui().binario30();
+                    break;
+                case 31:
+                    new gui().somarDecimalR31();
+                    break;
+                case 32:
+                    new gui().subtrairDecimalR32();
+                    break;
+                case 1256:
+                    new gui().verificaTriangulo();
+                    break;
+                case 33:
+                    new gui().fatorial();
+                    break;
+                case 22:
+                    new gui().raizInteiro();
+                    break;
+                default:
+                    break;
             }
             
         } while (op != 0);
