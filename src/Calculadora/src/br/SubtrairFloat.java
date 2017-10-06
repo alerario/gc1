@@ -9,9 +9,9 @@ package br;
  *
  * @author HRAPBB
  */
-public class Subtrair {
+public class SubtrairFloat {
 
-    public int subtrair(int a, int b) {
+    public float subtrairF(float a, float b) {
         return a - b;
     }
 }

@@ -7,11 +7,10 @@ package br;
 
 /**
  *
- * @author HRAPBB
+ * @author Aluno
  */
-public class Subtrair {
-
-    public int subtrair(int a, int b) {
-        return a - b;
+public class Resto {
+     public float calcularResto(int a, int b){
+        return a % b;
     }
 }
