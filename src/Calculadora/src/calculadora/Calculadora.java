@@ -44,10 +44,8 @@ public class Calculadora {
                 new gui.gui().porcentagemR28();
             } else if (op == 26) {
                 new gui.gui().bhaskaraR26();
-<<<<<<< HEAD
             }else if(op == 30){
                 new gui.gui().binario30();
-=======
             } else if (op == 31) {
                 new gui.gui().somarDecimalR31();
             } else if (op == 32) {
@@ -58,7 +56,6 @@ public class Calculadora {
                 new gui.gui().fatorial();
             } else if (op == 22) {
                 new gui.gui().raizInteiro();
->>>>>>> 2446cec776f829d99573b7ad1124793f08aef1da
             }
             
         } while (op != 0);

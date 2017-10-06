@@ -131,13 +131,11 @@ public class gui {
         float b = new java.util.Scanner(System.in).nextInt();
         System.out.println("Resultado: " + new br.Porcentagem().porcentagem(a, b) +"%");
     }
-<<<<<<< HEAD
     public void binario30() {
         System.out.print("Digite o um numero inteiro para a conversão: ");
         int a = new java.util.Scanner(System.in).nextInt();
         System.out.println("O Binario eh: " + new br.Binario().binario(a));
-=======
-    
+    }
     public void somarDecimalR31(){
         System.out.print("Entre com o primeiro número: ");
         float numeroA = new java.util.Scanner(System.in).nextFloat();
@@ -179,6 +177,6 @@ public class gui {
         System.out.print("digite o numero:");
         int a = new java.util.Scanner(System.in).nextInt();
         System.out.println("Resultado: " + new br.RaizInteiro().RaizInteiro(a));
->>>>>>> 2446cec776f829d99573b7ad1124793f08aef1da
+
     }
 }

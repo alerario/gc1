@@ -25,15 +25,12 @@ public class Menu {
         System.out.println("26 - Fórmula de Bhaskara");
         System.out.println("27 - Subtrair 2 numeros");
         System.out.println("28 - Porcentagem");
-<<<<<<< HEAD
         System.out.println("30 - Binario");
-=======
         System.out.println("31 - Somar Decimal");
         System.out.println("32 - Subtrair Decimal"); // Igual em Fatorial
         System.out.println("29: Verificar se forma um triângulo");
         System.out.println("32 - Fatorial"); // Igual em Somar Decimal
         System.out.println("22 - Raiz Inteiro");
->>>>>>> 2446cec776f829d99573b7ad1124793f08aef1da
         System.out.print("opcao:");
     } 
 
